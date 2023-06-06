@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1787206185960654938}
   - component: {fileID: 4081597389248380078}
   - component: {fileID: 3820481813387661077}
+  - component: {fileID: 366369586}
   m_Layer: 5
   m_Name: AddTagButton
   m_TagString: Untagged
@@ -121,7 +122,36 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4081597389248380078}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AddTagsToTagList, Assembly-CSharp
+        m_MethodName: openMenuAddTag
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &366369586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015063777504589347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b73ce43cdb9428e38ced4b5d5797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tag: {fileID: 8321365817475301153, guid: 5800d9bcabe7bee49b4f960aefb0d9e6, type: 3}
+  basicPos: {x: 10, y: 2, z: 0}
+  tagTitle: 
+  inputTitle: {fileID: 0}
+  tagMenu: {fileID: 0}
 --- !u!1 &3463163350800580827
 GameObject:
   m_ObjectHideFlags: 0
