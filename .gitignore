@@ -1,0 +1,17 @@
+Logs
+Backups
+Packages
+Temp
+UserSettings
+.idea
+.vs
+obj
+*.sln
+.vsconfig
+*.csproj
+*.bkp
+*.bak
+Library
+build*
+Plinko2D.sln.DotSettings.user
+*.zip
