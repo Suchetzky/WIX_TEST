@@ -11,7 +11,7 @@ public class AddANewPostOpenMenu : MonoBehaviour
     {
         if (GameObject.FindGameObjectsWithTag("postMenu").Length == 0)
         {
-                    GameObject tmp = GameObject.Instantiate(postMenu, new Vector3(-4.8f,3.5f,-1), quaternion.identity);
+                    GameObject tmp = GameObject.Instantiate(postMenu, new Vector3(-4.8f,3f,-1), quaternion.identity);
         }
     }
 }

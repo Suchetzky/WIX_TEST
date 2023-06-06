@@ -18,7 +18,7 @@ public class AddNewPostScript : MonoBehaviour
     private GameObject tmpPost;
     
     private bool enterFlag = false;
-    private int counter = 0;
+    static private int counter = 0;
     private Vector3 [] positions = new []{Vector3.zero,Vector3.zero,Vector3.zero,Vector3.zero,Vector3.zero};
     private Vector3 nextPostPos = new Vector3(0, 0, 0);
 
@@ -26,7 +26,7 @@ public class AddNewPostScript : MonoBehaviour
     {
         for (int i = 0; i < 5; i++)
         {
-            positions[i] = new Vector3(-6, 2-2*i, -0.5f);
+            positions[i] = new Vector3(-6, 1.9f-2*i, -0.5f);
         }
     }
 
